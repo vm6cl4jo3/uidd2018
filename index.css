@@ -1,6 +1,124 @@
-p{
+@import url(///fonts.googleapis.com/earlyaccess/notosanstc.css);
 
-  color:red;
+h1,p{
+ font-family:'Noto Sans TC',sans-serif;
+ position:relative;
+ z-index:1;
+ left:12rem;
+ top:15rem;
+}
+
+h1{
+  
+  font-size:80px;
+  color:#ffffff;
+}
+p{
+  font-size:30px;
+  color:#ffffff;
+}
+body{
+  padding:0;
+  margin:0;
+}
+#container{
+  position:relative;
+  height:71.2rem;
+  overflow:hidden;
+}
+#imgshape{
+  
+  left:25%;
+  overflow:hidden;
+  position:absolute;
+  bottom:0rem;
+  width:150rem;
+  height:60rem;
+}
+#imgshape > img{
+  position:relative;
+  left:-20rem;
+  bottom:23.7rem;
+  width:150rem;
+}
+#background{
+  position:absolute;
+  top:0rem;
+  z-index:-1;
+  height:500rem;
+  left:0%;
+  width:500rem;
+  background-color:#222428;
+ }
+.navbar{
+ 
+  position:absolute;
+  top:3rem;
+  left:5rem;
+}
+#navbarleft >a {
+  position:relative;
+  margin-left:0px;
+  text-decoration:none;
+  font-size:2rem;
+  color:white;
+
+}
+
+#navbarcenter >a {
+  position:absolute;
+  margin-left:68rem;
+  margin-top:-2rem;
+  text-decoration:none;
+  font-size:2rem;
+  color:white;
+  text-align:left;
+  white-space:nowrap;
+  
+}
+#navbarighticon >a {
+  position:absolute;
+  margin-left:132rem;
+  margin-top:-1.2rem;
+  text-decoration:none;
+  font-size:2rem;
+  color:white;
+  
+}
+.bottombar{
+  position:absolute;
+  bottom:3rem;
+  left:5rem;
+}
+.bottombar-left{
+  position:absolute;
+  margin-left:0px;
+  }
+.fa fa-signal{
+  position:absolute;
+  margin-left:0rem;
+  bottom:0rem;
+  color:white;
+}
+#bottombar-left-text{
+  position:absolute;
+  margin-left:3.5rem;
+  bottom:0rem;
+  text-decoration:none;
+  font-size:1.3rem;
+  color:white;
+  white-space:nowrap;
+
+}
+#bottombar-right-text{
+  position:absolute;
+  margin-left:129rem;
+  bottom:-1.8rem;
+  text-decoration:none;
+  font-size:1.3rem;
+  color:white;
+  white-space:nowrap;
 }
 
 
+  
